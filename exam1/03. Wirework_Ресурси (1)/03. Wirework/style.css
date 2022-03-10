@@ -1,0 +1,178 @@
+@import url('https://use.fontawesome.com/releases/v6.0.0/css/all.css');
+h1,h2,h3,p {
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-family:Helvetica; 
+}
+
+body {
+    width: 1500px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin:0 auto;
+    
+}
+
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 10px;
+}
+header h1 {
+    font-size: 40px;
+}
+.heading {
+    color: gray;
+    font-size: 14px;
+    border-left: 1px solid gray;
+    padding: 16px;
+    padding-bottom:5px ;
+    font-size: 16px;
+}
+nav {
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+    
+} 
+ul{
+    display: flex;
+    gap: 2px;
+    list-style-type: none;
+    justify-content:flex-end;
+}
+
+li {
+    background-color: rgb(231, 231, 231);
+    padding: 25px 40px;
+}
+
+.homepage__button a {
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(63, 63, 63);
+}
+img{
+    width: 100%;
+    height: 520px;
+    object-fit: cover;
+}
+.banner,.homepage__button ,.fa-solid{
+    background-color: orangered;
+}
+.desc {
+    color: rgb(255, 231, 199); 
+    text-align: center;  
+    padding: 18px 0px;
+}
+.desc p {
+    padding: 60px 170px;
+    font-size: 19px;
+    margin-top: 0;
+}
+.bold {
+    font-weight: bold;
+}
+.underline {
+    text-decoration: underline;
+}
+
+.services {
+    display: flex;
+    background-color:rgb(65, 63, 63) ;
+   padding: 90px 30px;
+    
+}
+.services h3 {
+    text-align: center;
+    padding-bottom: 10px;
+    color: white;
+    
+}
+.services article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.services article p {
+    text-align: center;
+    color: gray;
+    margin: 20px;
+    border-top: 1px solid gray;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    line-height: 2rem;
+ }  
+.fa-solid {
+    color: white;
+    font-size: 70px;
+    padding: 25px;
+}
+.contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 95px 100px;
+}
+.contacts h2 {
+    padding: 10px;
+    font-size: 45px;
+    font-weight: 300;
+    color: gray;
+}
+.contacts p {
+    font-size: 22px;
+    color: gray;
+
+}
+.contacts a {
+    margin-top: 30px;
+    background-color: rgb(10, 180, 152);
+    color: white;
+    padding: 20px 65px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(65, 63, 63);
+    padding: 80px 40px;
+}
+.more h2 {
+    color: white;
+    font-weight: 200;
+    font-size: 28px;
+    text-align:left ;
+    padding-left: 20px;
+}
+.more p {
+    color: gray;
+    text-align: center;
+    font-size: 18px;
+    
+    
+    padding: 50px 0px 0px ;
+}
+footer {
+    background-color: rgb(10, 180, 152);
+    text-align: center;
+    color: rgb(126, 247, 191);
+   padding: 80px;
+}
+.whiter {
+    color: rgb(197, 236, 218);;
+}

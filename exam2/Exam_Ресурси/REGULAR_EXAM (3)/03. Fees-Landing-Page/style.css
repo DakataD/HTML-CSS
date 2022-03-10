@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
+h1,h2,h3,h4,p{
+    font-family: 'Montserrat', sans-serif;
+}
+a,span {
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+body {
+    width: 90%;
+    margin: auto;
+    background-color: white;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+   
+}
+ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    flex-wrap: wrap;
+}
+.img {
+    height: 40px;
+    display: flex;
+   padding-right: 33%;
+   flex-shrink: 1;
+}
+a {
+    text-decoration: none;
+    color: rgb(76, 82, 107);
+}
+.card a {
+    text-decoration: none;
+    color: rgb(76, 82, 107);
+    background-color: rgb(154, 14, 182);
+    color: white;
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 45px;
+}
+.taxes {
+    background-color: rgb(76, 82, 107);
+}
+.taxes img {
+    position: relative;
+    right: 78px;
+    bottom: 60px;
+}
+.taxes p {
+    text-align: center;
+    padding-top: 60px;
+    color: white;
+    font-size: 30px;
+    margin-top: -3px;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+    bottom: 160px;
+   
+    
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 350px;
+    background-color: white;
+    border-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+   
+}
+.card p {
+    text-align: center;
+    padding: 0px 10px;
+}
+.card>p {
+    margin-top:-7px;
+}
+
+.green {
+    background: rgb(23,144,12);
+    background: linear-gradient(90deg, rgba(23,144,12,1) 49%, rgba(110,217,113,1) 100%);
+    align-self: stretch;
+    text-align: center;
+    height: 100px;
+    color: white;
+    
+}
+.blue {
+    background: rgb(56,105,134);
+    background: linear-gradient(90deg, rgba(56,105,134,1) 49%, rgba(132,206,237,1) 100%);
+    align-self: stretch;
+    text-align: center;
+    color: white;
+    display: flex;
+    height: 100px;   
+    align-items: center;
+}
+.left {
+    border-right: 1px solid white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+.right {
+    
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.purple {
+    background: rgb(105,30,210);
+    background: linear-gradient(90deg, rgba(105,30,210,1) 49%, rgba(158,145,194,1) 100%);
+    align-self: stretch;
+    text-align: center;
+    color: white;
+    display: flex;
+    height: 100px;   
+    align-items: center;
+}
+.color__header {
+    font-size: 20px;
+}
+.card__fond {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+.info {
+    margin-top: -90px;
+}
+.info h2,.info p {
+    width: 80%;
+    margin-left:10% ;
+}
+.li{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+flex: 1 1 100%;
+margin: 0;
+background-color: rgb(226, 225, 225);
+width: 80%;
+margin-left: 10%;
+}
+
+.li:nth-child(2n) {
+    background: rgb(243, 241, 241);
+  }
+
+.img_wrapper{
+    display: flex;
+    gap: 120px;
+    padding-right: 60px;
+}
+.bank {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 170px;
+    margin-top: 70px;
+}
+.bank p {
+    font-size: 14px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(76, 82, 107);
+    color: rgb(180, 179, 179);
+    height: 70px;
+    font-size: 14px;
+}

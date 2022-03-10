@@ -1,0 +1,67 @@
+@media screen and (max-width: 600px) {
+    * {
+        margin:0;
+        padding:0;
+        }
+    .main-nav {
+        display: none;
+    }
+    .hero-head {
+        background-color: black;
+        background-image: none;
+    }
+    .hero-head h1 {
+        float: unset;
+        text-align: center;       
+        font-size: 46px;
+        line-height: 83px;
+        margin: 0;
+        padding-bottom: 50px;
+    }
+    .main-head {
+        padding-bottom: 70px;
+    }
+    .wrapper {
+        width: 95%;
+       
+    }
+    .hero-head .goal {
+        float: unset;
+        text-align: center;
+        margin: auto;
+        max-width: 100%;
+        font-size: 23px;
+        line-height: 48px;
+        padding-bottom: 80px;
+    }
+    .content-wrap {
+        flex-direction: column;  
+    }
+    .content-wrap.two-col .col {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-right: 0;
+    }
+    .button {
+        width: 100%;
+    }
+    .content {
+        float: unset;
+        
+    }
+    .main-foot .wrapper {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .main-foot address, .main-foot nav{
+        margin: 0;
+    }
+    .main-foot .bottom .copyright{
+        float: unset;
+    }
+}
