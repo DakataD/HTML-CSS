@@ -1,0 +1,35 @@
+@import url("https://use.fontawesome.com/releases/v5.10.0/css/all.css ");
+
+body {
+    padding: 0;
+    margin: 0;
+}
+i {
+    position: relative;
+    font-size: 30px;
+    left: -45px;
+    bottom: 15px;
+    color: white;
+}
+.viewport {
+    height: 900px;
+    padding: 30px;
+}
+.card {
+    display: block;
+    position: absolute;
+    left: 38%;  
+}
+
+.up {
+    background: linear-gradient(.25turn, blue, 40%, rgb(31, 204, 166));
+}
+.down {
+    background: linear-gradient(.25turn, rgb(167, 70, 223), 40%, rgb(224, 129, 20));
+}
+
+
+
+
+
+

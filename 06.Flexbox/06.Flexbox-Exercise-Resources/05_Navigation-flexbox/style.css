@@ -1,0 +1,41 @@
+
+body{
+    width: 80%;
+    margin: auto;
+}
+
+
+header {
+    border-bottom: 2px solid rgb(0,0,0);
+    display: flex;
+    align-items: center;
+}
+
+header p {
+    font-size: 50px;
+    font-weight: bold;
+    flex: 1 1 80%;
+}
+nav {
+    flex: 1 1 20%;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+   
+    
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+    font-size: 20px;
+    
+}
+
+p {
+    font-size: 20px;
+}
